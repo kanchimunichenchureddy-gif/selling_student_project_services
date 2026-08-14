@@ -63,9 +63,9 @@ export default function FloatingContact({ onOpenForm }) {
   };
 
   return (
-    <div className="fixed bottom-5 right-4 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-3">
+    <div className="fixed bottom-4 right-3 sm:bottom-6 sm:right-6 z-40 flex flex-col items-end gap-3">
       {isOpen && (
-        <div className="w-[calc(100vw-2rem)] max-w-sm rounded-3xl border border-blue-200 bg-white/95 p-4 shadow-2xl shadow-blue-950/20 backdrop-blur-xl">
+        <div className="max-h-[calc(100vh-7rem)] w-[calc(100vw-1.5rem)] max-w-sm overflow-y-auto rounded-3xl border border-blue-200 bg-white/95 p-4 shadow-2xl shadow-blue-950/20 backdrop-blur-xl">
           <div className="flex items-start justify-between gap-4 border-b border-slate-200 pb-3">
             <div>
               <p className="text-sm font-extrabold text-slate-950">Instant Project Help</p>
@@ -125,7 +125,7 @@ export default function FloatingContact({ onOpenForm }) {
               aria-hidden="true"
             />
 
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -162,7 +162,7 @@ export default function FloatingContact({ onOpenForm }) {
 
       <button
         onClick={() => setIsOpen(prev => !prev)}
-        className="group flex items-center gap-3 rounded-2xl border border-blue-200 bg-white/95 px-3 py-2 shadow-2xl shadow-blue-600/20 backdrop-blur-md transition hover:-translate-y-0.5 hover:border-blue-300"
+        className="group flex items-center gap-2 sm:gap-3 rounded-2xl border border-blue-200 bg-white/95 px-2.5 sm:px-3 py-2 shadow-2xl shadow-blue-600/20 backdrop-blur-md transition hover:-translate-y-0.5 hover:border-blue-300"
         title="Need Instant Project Help?"
         aria-label="Need Instant Project Help?"
       >
@@ -170,7 +170,7 @@ export default function FloatingContact({ onOpenForm }) {
           <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 animate-pulse" />
           Need Instant Project Help?
         </span>
-        <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-700 via-sky-600 to-emerald-500 text-white shadow-xl shadow-blue-600/35">
+        <span className="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-700 via-sky-600 to-emerald-500 text-white shadow-xl shadow-blue-600/35">
           {isOpen ? <X className="h-6 w-6" /> : <Sparkles className="h-6 w-6 transition-transform group-hover:rotate-12" />}
         </span>
       </button>
