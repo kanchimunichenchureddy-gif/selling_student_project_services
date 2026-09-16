@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import List, Optional
 
 class Settings(BaseSettings):
-    APP_NAME: str = "Student Project Portal API"
+    APP_NAME: str = "Vortiqen API"
     ENVIRONMENT: str = "production"
     
     # Google Sheets Configuration

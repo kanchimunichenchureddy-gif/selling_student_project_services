@@ -11,7 +11,7 @@ export default function Footer({ onOpenForm }) {
             <div className="w-8 h-8 rounded-lg bg-blue-700 flex items-center justify-center text-white">
               <Terminal className="w-4 h-4" />
             </div>
-            <span className="font-bold text-slate-950 text-base">NexGen Architects</span>
+            <span className="font-bold text-slate-950 text-base">Vortiqen</span>
             <span className="text-slate-600">|</span>
             <span className="text-slate-400">Student Capstone & Engineering Labs</span>
           </div>
@@ -25,7 +25,7 @@ export default function Footer({ onOpenForm }) {
         </div>
 
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-xs">
-          <p>© {new Date().getFullYear()} NexGen Architects. All rights reserved. Production Ready B.Tech / Master's Engineering Solutions.</p>
+          <p>© {new Date().getFullYear()} Vortiqen. All rights reserved. Production Ready B.Tech / Master's Engineering Solutions.</p>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1 text-slate-400">
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />

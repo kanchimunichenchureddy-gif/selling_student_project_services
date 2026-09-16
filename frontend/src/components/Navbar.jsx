@@ -39,7 +39,7 @@ export default function Navbar({ onOpenForm }) {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-xl tracking-tight text-slate-950 flex items-center gap-1.5 font-sans">
-                NexGen <span className="gradient-text">Architects</span>
+                Vortiqen
               </span>
               <span className="text-[10px] text-slate-500 font-mono -mt-1 tracking-wider uppercase">
                 Production-Ready Capstone Labs

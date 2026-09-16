@@ -11,7 +11,7 @@ export default function LeadershipTeam() {
 
   const mentors = [
     {
-      name: "Siddharth Verma",
+      name: "Teja Kanchi",
       role: "Lead AI & Distributed Systems Architect",
       exp: "8+ Yrs Exp • Ex-Tier 1 Tech Lead",
       skills: ["PyTorch", "LangChain", "FastAPI", "Kubernetes"],

@@ -13,7 +13,7 @@ export const PROJECTS_DATA = [
       "One-click Auto-Refactor Diff Generator",
       "Comprehensive PDF Evaluation Report Output"
     ],
-    demoUrl: "https://demo.nexgenprojects.dev/ai-code-auditor"
+    demoUrl: "https://demo.vortiqen.dev/ai-code-auditor"
   },
   {
     id: "proj-cloud-02",
@@ -29,7 +29,7 @@ export const PROJECTS_DATA = [
       "Real-time Cluster Metrics & SLA Dashboard",
       "Automated Slack/Email Alerts Integration"
     ],
-    demoUrl: "https://demo.nexgenprojects.dev/gitops-portal"
+    demoUrl: "https://demo.vortiqen.dev/gitops-portal"
   },
   {
     id: "proj-web-03",
@@ -45,7 +45,7 @@ export const PROJECTS_DATA = [
       "Real-time WebSocket Data Feeds",
       "Complete Admin & Tenant Management Portal"
     ],
-    demoUrl: "https://demo.nexgenprojects.dev/microsaas-analytics"
+    demoUrl: "https://demo.vortiqen.dev/microsaas-analytics"
   },
   {
     id: "proj-iot-04",
@@ -61,7 +61,7 @@ export const PROJECTS_DATA = [
       "Interactive Grafana Operational Dashboard",
       "Simulation Script included for hardware-free demo"
     ],
-    demoUrl: "https://demo.nexgenprojects.dev/iot-predictive-maintenance"
+    demoUrl: "https://demo.vortiqen.dev/iot-predictive-maintenance"
   },
   {
     id: "proj-mob-05",
@@ -77,7 +77,7 @@ export const PROJECTS_DATA = [
       "Appointment Scheduling & Doctor Portal",
       "Offline-first SQLite Data Sync"
     ],
-    demoUrl: "https://demo.nexgenprojects.dev/telehealth-app"
+    demoUrl: "https://demo.vortiqen.dev/telehealth-app"
   },
   {
     id: "proj-web-06",
@@ -93,7 +93,7 @@ export const PROJECTS_DATA = [
       "Risk Management & Stop-Loss Automations",
       "Full API Documentation & Postman Collection"
     ],
-    demoUrl: "https://demo.nexgenprojects.dev/trading-bot"
+    demoUrl: "https://demo.vortiqen.dev/trading-bot"
   }
 ];
 
